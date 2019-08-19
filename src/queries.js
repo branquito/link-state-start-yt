@@ -20,6 +20,9 @@ const STARRED_REPOS_QUERY = gql`
         }
       }
     }
+    filters @client {
+      language
+    }
   }
 `
 
